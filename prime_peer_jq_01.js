@@ -11,10 +11,11 @@ function People(age, sex, weight){
 	this.weight = randomNumber(1, 200);
 	this.age = randomNumber(1, 100);
 	if (this.sex == 0){
-			gender = "Male";
-		} else {
-			gender = "Female"
-		}
+		gender = "Male"
+	}
+	else {
+		gender = "Female"
+	}
 }
 
 
